@@ -7,7 +7,7 @@
 			window.onload = function() {
 					setTimeout(function(){
 						document.querySelector('.preloader').classList.add("preloader-remove");
-					}, 5000);
+					}, 2000);
 				};
 			
 			
@@ -170,8 +170,6 @@
 								<p class="" id="">
 									Сейчас исследователи творчества французского писателя-фантаста считают, что, скорее всего, оба исторических персонажа – и Нана Сахиб, и Белый Раджа - стали прототипами принца Даккара, «поделившись с ним лучшими чертами своего характера.
 								</p>
-								
-								
 							</div>
 							
 							<hr></hr>	
@@ -180,7 +178,7 @@
 					</div>
 					
 					<div class="slider slider_text">
-
+						
 						<div class="item textblock">
 							<!-- <img src="img/slide2.jpg" alt="Второй слайд"> -->
 							<div class="slideText">Факты о 20 000 лье под водой</div>
@@ -210,9 +208,9 @@
 					</div>
 
 					<div class="slider-dots">
+						<span class="slider-dots_item" onclick="currentSlide(1)"></span> 
 						<span class="slider-dots_item" onclick="currentSlide(2)"></span> 
 						<span class="slider-dots_item" onclick="currentSlide(3)"></span> 
-						<span class="slider-dots_item" onclick="currentSlide(4)"></span> 
 					</div>
 					
 					<div class="infblock infblock_past" id="infblock_first">					
@@ -265,7 +263,7 @@
 				</div>	
 				<script src="scrollreveal.js"></script>
 			<script>
-			ScrollReveal().reveal('.infblock', {reset: true, delay: 50, wait: 2000, distance: '20px', viewFactor  : 2.5, viewOffset  : { top: 40%, right: 0, bottom: 40%, left: 0 }, scale: 1.1, easing: 'ease-in-out', rotate:{ x: 20, y: 0, z: 0 },});
+			ScrollReveal().reveal('.infblock', {reset: true, delay: 50, wait: 200, distance: '20px', viewFactor  : 0.20, viewOffset  : { top: 0, right: 0, bottom: 0, left: 0 }, scale    : 1.1, easing   : 'ease-in-out', rotate:{ x: 20, y: 0, z: 0 },});
 			
 			</script>
 				<script src="library.js"> </script>
